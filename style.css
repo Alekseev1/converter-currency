@@ -82,6 +82,7 @@ option:hover {
 }
 
 .form-control-input {
+	margin-top: 5px;
 	background-color: rgb(39, 38, 38);
 	text-align: center;
 	transition: all 0.2s ease-in;
