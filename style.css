@@ -5,6 +5,7 @@ overflow-y: hidden;
 body {
 	font-family: 'Inter', sans-serif;
 	background-color: #0f0f0f;
+	height: 100vh;
 	overflow-y: hidden;
 }
 
