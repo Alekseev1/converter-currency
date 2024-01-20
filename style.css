@@ -1,4 +1,5 @@
 html, body {
+	position: relative;
 	font-family: 'Inter', sans-serif;
 	background-color: #0f0f0f;
 	overflow-y: hidden;
