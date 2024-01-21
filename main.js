@@ -74,6 +74,13 @@ swiperEl.addEventListener("click", function () {
   ).toFixed(2);
 });
 
+swiperEl.addEventListener("touchend", function () {
+	currentSlide = document.querySelector(".swiper-slide-active");
+	result.value = (
+	  parseFloat(input.value) / rates[currentSlide.dataset.value1].Value
+	).toFixed(2);
+ });
+
 input.oninput = function () {
   console.log("changed!");
   result.value = (
